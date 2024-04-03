@@ -1,0 +1,30 @@
+# Ignorar archivos temporales o generados automáticamente
+*.log
+*.bak
+*.tmp
+*.swp
+*~
+
+# Ignorar directorios generados automáticamente
+node_modules/
+dist/
+build/
+
+# Ignorar archivos de configuración específicos de los entornos de desarrollo
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos específicos de IDEs y editores de texto
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar archivos de compilación y dependencias
+*.o
+*.so
+*.dll
+*.exe
+*.class
+*.jar
